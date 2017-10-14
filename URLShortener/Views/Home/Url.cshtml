@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Url";
+}
+
+<h2>Shortened Url</h2>
+<hr />
+<div class="row">
+    <div class="col-md-4 col-md-offset-4">
+        <p class="text-info">@Html.Display("Shorty")
+            <br />Copy
+        </p>
+        <div>
+            @Html.ActionLink("Generate another", "Index")
+        </div>
+    </div>
+</div>
